@@ -1,0 +1,161 @@
+body {
+  background-image: url("img/1_j96ncA_HR52MIeQsFYeFaQ.jpeg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: white;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 500%;
+
+  animation: cambio 20s infinite alternate;
+  animation-timing-function: ease-in;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -400%;
+  }
+  180% {
+    margin-left: -400%;
+  }
+}
+
+h1 {
+  font-family: times new roman;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+h2 {
+  font-family: times new roman;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+.corpo {
+  width: 960px;
+  margin: auto;
+}
+
+.conteudo {
+  display: table;
+}
+
+.imagem {
+  display: table-cell;
+  float: left;
+}
+
+.texto {
+  display: table-cell;
+  float: left;
+  width: 350px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+  text-align: center;
+  color: black;
+}
+
+/*Formatação do Menu */
+
+nav#menu {
+  display: block;
+}
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 60px;
+  left: 850px;
+}
+
+nav#menu li {
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+nav#menu h1 {
+  display: none;
+}
+
+nav#menu a {
+  color: #fffafa;
+  text-decoration: none;
+}
+
+nav#menu a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
